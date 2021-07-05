@@ -1,0 +1,58 @@
+#window1 {
+    border: 1px solid;
+    width: 300px;
+    overflow: hidden;
+    margin-left: 100px;
+    
+}
+
+#window2 {
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    margin-left: 100px;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+h1 {
+font-size: 40px; 
+text-align: center;
+color: pink;
+
+}
+
+#imageSlider1 {
+    display: flex;
+    transform: translateX(-300);
+    animation: anime 5s infinite;
+    justify-content: center;
+    
+}
+
+#imageSlider2 {
+    display: flex;
+    transform: translateX(-300);
+        
+   }
+
+@keyframes anime {
+    0% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(-300px);
+    }
+    100% {
+      transform: translateX(-600px);
+    }
+}
+
+#buttons {
+    margin-left: 180px;
+}
